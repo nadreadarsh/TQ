@@ -1,3 +1,4 @@
+
 package com.arraymethod;
 import java.util.Scanner;
 public class PrimeNumber {

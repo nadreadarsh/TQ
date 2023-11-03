@@ -19,6 +19,23 @@ public class AvgArray {
 		return num;
 
 	}
+	public static void lessAvg() {
+		int arr[] = { 1, 2, 3, 4, 5 };
+		int avg=1;
+		int sum=0;
+		for(int i=0;i<arr.length;i++) {
+			sum=sum+arr[i];
+			
+		}
+		avg=sum+arr.length;
+		System.out.println("Avg is: "+avg);
+		
+		for(int i=0;i<arr.length;i++) {
+			if(arr[i]<avg) {
+				System.out.println(arr[i]);
+			}
+		}
+	}
 
 	public static void SumArray(int num[]) {
 		System.out.println("sum of array");
@@ -34,6 +51,7 @@ public class AvgArray {
 		int arr[] = { 1, 2, 3, 4, 5 };
 		int n[] = createArray();
 		SumArray(n);
+		lessAvg();
 
 	}
 
