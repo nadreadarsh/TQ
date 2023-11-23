@@ -26,6 +26,9 @@ public class UniqueNumber {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int arr[]= {12,45,12,15,15};
+		UniqueNumber obj = new UniqueNumber();
+		obj.nonReapeating(arr, 0);
+		
 		
 		
 		

@@ -4,7 +4,7 @@ public class Count_Number_words {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str="Abhishek is a naugty and dirty boy";
+		String str="Abhishek is a bad and dirty boy";
 		char ch[] =str.toCharArray();
 		
 //		int j=0;
