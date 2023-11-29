@@ -1,4 +1,4 @@
-package com.basic;
+package com.LogicalProgram;
 import java.util.Scanner;
  class ElectricityBill {
 	 String name;

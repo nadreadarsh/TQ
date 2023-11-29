@@ -10,7 +10,7 @@ public class Occurrence_count {
 		char arr[] = str1.toCharArray();
 		int count = 0;
 		for (int i = 0; i < arr.length; i++) {
-			if ('u' == arr[i]) {
+			if ('r' == arr[i]) {
 				count++;
 
 			}

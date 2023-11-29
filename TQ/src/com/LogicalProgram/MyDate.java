@@ -1,4 +1,4 @@
-package com.basic;
+package com.LogicalProgram;
 
 public class MyDate {
 	private int dd, yy;

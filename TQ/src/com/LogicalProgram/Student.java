@@ -1,4 +1,4 @@
-package com.basic;
+package com.LogicalProgram;
 
 class Student {
 	int rollnum;

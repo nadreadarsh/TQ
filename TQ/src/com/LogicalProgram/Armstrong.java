@@ -1,4 +1,4 @@
-package com.basic;
+package com.LogicalProgram;
 
 public class Armstrong {
 	public int digitCount(int num)

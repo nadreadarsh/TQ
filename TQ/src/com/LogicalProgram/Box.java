@@ -1,4 +1,4 @@
-package com.basic;
+package com.LogicalProgram;
 
 public class Box {
 	int length=8;

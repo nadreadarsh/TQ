@@ -1,4 +1,4 @@
-package com.basic;
+package com.LogicalProgram;
 class Employee {
 	 int Eid;
 	 String Name;
