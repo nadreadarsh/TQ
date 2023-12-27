@@ -10,6 +10,9 @@ public class Length_of_String {
 		String s1=" Adarsh";
 		String s3 = " Abhishek";
 		String s4= new String(" Sunish");
+		String s6 = "Maroti";
+		System.out.println(s6.length());
+		System.out.println("---------------------------------------------");
 		System.out.println(s1.hashCode());
 		System.out.println((s2.hashCode()));
 		System.out.println(s3.hashCode());

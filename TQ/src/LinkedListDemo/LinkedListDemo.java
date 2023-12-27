@@ -11,7 +11,7 @@ public class LinkedListDemo {
 		// TODO Auto-generated method stub
 		ArrayList<Student1> al=new ArrayList<>();
 		
-		al.add(new Student1(1, "Sapana", 101, 45));
+		al.add(new Student1(1, "Sapna", 101, 45));
 		al.add(new Student1(2 ,"Komal", 101, 75));
 	
 		//System.out.println("******" + al.get(1)+"\n");

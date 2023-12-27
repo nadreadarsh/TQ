@@ -70,6 +70,7 @@ public class Employee implements Comparable <Employee>{
 	@Override
 	public int compareTo(Employee o) {
 		// TODO Auto-generated method stub
+		// comparing by name
 		int res=this.ename.compareTo(o.ename);
 		
 		return res;
@@ -86,6 +87,7 @@ public class Employee implements Comparable <Employee>{
 		System.out.println("Before Sorting ArrayList");
 		System.out.println(em);
 		Collections.sort(em);
+		System.out.println("After Sorting ArrayList");
 		System.out.println(em);
 
 	}

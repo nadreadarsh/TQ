@@ -1,17 +1,17 @@
 package com.arrayslistdemo;
 
-public class Book {
+public class Book implements Comparable<Book> {
 	int bookId;
 	String bookName;
 	String bookAuthor;
 	int price;
 
 	public Book() {
-	//	System.out.println("I am In default constructor");
+		// System.out.println("I am In default constructor");
 	}
 
 	public Book(int bookId, String bookName, String bookAuthor, int price) {
-		//System.out.println("I am in Parameterized constructor");
+		// System.out.println("I am in Parameterized constructor");
 		this.bookId = bookId;
 		this.bookName = bookName;
 		this.bookAuthor = bookAuthor;
@@ -56,9 +56,17 @@ public class Book {
 				+ "]";
 	}
 
+	@Override
+	public int compareTo(Book o) {
+		// TODO Auto-generated method stub
+		// return this.bookName.compareTo(o.bookName);
+		Integer i = this.bookId;
+		Integer j = o.bookId;
+		return i.compareTo(j);
+	}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
 
 	}
 

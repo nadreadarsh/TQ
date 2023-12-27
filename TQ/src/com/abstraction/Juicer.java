@@ -6,7 +6,8 @@ public class Juicer extends Machine  {
 	}
 
 	@Override
-	void crush() {
+	
+	public void crush() {
 		System.out.println("Make crush coffee for me");
 
 	}

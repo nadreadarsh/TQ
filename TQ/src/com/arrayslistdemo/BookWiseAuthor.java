@@ -25,7 +25,7 @@ public class BookWiseAuthor {
 		bk.add(new Book(105, "Why we want you to be rich", "Robert Kiyosaki", 350));
 		bk.add(new Book(106, "Harry Potter Series", "J.K.Rowling", 850));
 		bk.add(new Book(107, "Second Chance", "Robert Kiyosaki", 650));
-		
+
 		System.out.println(bk);
 
 		int cnt = 0;
@@ -33,17 +33,19 @@ public class BookWiseAuthor {
 			cnt = 0;
 
 			for (int j = 0; j < bk.size(); j++) {
-//				cnt=cnt+1;
+
 				if (bk.get(i).bookAuthor.equals(bk.get(j).bookAuthor) && j < i)
 					break;
 				else if (bk.get(i).bookAuthor.equals(bk.get(j).bookAuthor))
- 					cnt++;
+					cnt++;
 
 			}
 			if (cnt > 0)
 				System.out.println(bk.get(i).bookAuthor + "=" + cnt);
 
 		}
+		Collections.sort(bk);
+		System.out.println(bk);
 	}
 
 }

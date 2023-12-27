@@ -1,6 +1,6 @@
 package com.d2array;
 
-/*3.	WAP to print maximum in rowwise in 2D array. Means e.g. 
+/*3.	WAP to print maximum in row wise in 2D array. Means e.g. 
  * arr[][] = 		{{22, 31, 9}, {12, 25, 16}} output is: 31 and 25.*/
 public class Maximum_Row_Array {
 

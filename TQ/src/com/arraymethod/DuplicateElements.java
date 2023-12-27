@@ -3,6 +3,8 @@ package com.arraymethod;
 import java.util.Arrays;
 
 public class DuplicateElements {
+	
+	
 	public static  void duplicateFind() {
 		int num[]= {1,2,3,1,2,5,7,2,3};
 		
