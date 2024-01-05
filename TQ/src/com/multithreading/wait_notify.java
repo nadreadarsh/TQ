@@ -3,39 +3,34 @@ package com.multithreading;
 import java.util.Scanner;
 
 public class wait_notify {
-public static long balance = 5000;
-	
+	public static long balance = 5000;
 
-	public long getBalance()
-	{
+	public long getBalance() {
 		return balance;
 	}
 
-	public void withDraw(int amount)
-	{
-		
-		if(balance > amount)
-		{
+	public void withDraw(int amount) {
+
+		if (balance > amount) {
 			balance = balance - amount;
 			System.out.println("The amount is withdrawn by  " + Thread.currentThread().getName());
-		}
-		else
+		} else
 			System.out.println(Thread.currentThread().getName() + " : Insufficient amount");
 	}
-	public void deposit(int rupees)
-	{
-		balance=balance+rupees;
+
+	public void deposit(int rupees) {
+		balance = balance + rupees;
 		System.out.println("The amount is deposited by  " + Thread.currentThread().getName());
 	}
-}
+
 public class Wait_notify implements Runnable
 {
 	public static  int amount;
-	Account11 a;
+	Account a;
 	Thread t1,t2;
 	Wait_notify()//constructor
 	{
-		a = new Account11();
+		a = new Account();
 
 		t1 = new Thread(this, "Person1");
 		t2 = new Thread(this, "Person2");
@@ -80,7 +75,7 @@ public class Wait_notify implements Runnable
 			{
 			System.out.println(Thread.currentThread().getName() + " is waiting ....");	
 			wait();			
-			a.withDraw(amount);
+			a.withdraw(amount);
 			System.out.println("current balance is "+a.getBalance());
 		    System.out.println("successul witdraw");
 			
@@ -106,11 +101,11 @@ public class Wait_notify implements Runnable
 	{
 		
 
-		Wait_notify obj=new Wait_notify();
+		wait_notify obj=new wait_notify();
 		
 		
 	}
-	
-
-
 }
+}
+
+

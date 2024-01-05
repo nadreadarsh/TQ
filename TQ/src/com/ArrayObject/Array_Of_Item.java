@@ -111,6 +111,8 @@ public class Array_Of_Item {
 		arr[2] = new Array_Of_Item(103, "Apple", 1500);
 		arr[3] = new Array_Of_Item(103, "Banana", 1000);
 		arr[4] = new Array_Of_Item(104, "abhishek", 1400);
+		
+		
 
 		obj.showArray(arr);
 		obj.highestPrice(arr);

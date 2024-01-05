@@ -1,4 +1,4 @@
-package com.ioDemo;
+package com.filehandlingdemo;
 
 import java.io.File;
 import java.util.Arrays;

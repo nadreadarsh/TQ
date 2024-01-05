@@ -1,4 +1,4 @@
-package com.ioDemo;
+package com.filehandlingdemo;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,7 +8,7 @@ public class FileCreation {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// create file in folder
-		File obj = new File("F:\\filename2.txt/filename.txt");
+		File obj = new File(".//src//com//filehandlingdemo//manager.txt");
 		try {
 			if(obj.createNewFile()) {
 				System.out.println("File Name: "+obj.getName());
@@ -35,6 +35,8 @@ public class FileCreation {
 //		else {
 //			System.out.println("File Already Exists");
 //		}
+		
+//		obj.delete();
 
 
 	}
